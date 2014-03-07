@@ -1,0 +1,26 @@
+{
+  "name": "bucket-example",
+  "description": "example of broken scuttlebucket",
+  "version": "0.0.0",
+  "repository": {
+    "url": "nrw/bucket-example"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "tape": "^2.10.2",
+    "level": "^0.18.0",
+    "rimraf": "^2.2.6",
+    "level-sublevel": "^5.2.0",
+    "level-scuttlebutt": "^5.0.8",
+    "scuttlebucket": "^0.2.3",
+    "crdt": "^3.6.3"
+  },
+  "devDependencies": {
+    "tap": "0.x.x",
+    "faucet": "0.x.x"
+  }
+}
